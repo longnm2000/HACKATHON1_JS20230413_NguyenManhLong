@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background: url(./resources/beach3.jpg);
+    background-size: cover;
+    width: 70%;
+    margin: auto;
+    max-width: 1500px;
+    height: 400px;
+    position: relative;
+}
+
+header div {
+    background-color: rgba(232, 186, 54, 0.8);
+    width: 60%;
+    padding: 10px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+main {
+    width: 70%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+}
+
+main section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+main section h3 {
+    margin: 10px 0;
+}
+
+main img {
+    width: 100%;
+    height: 300px;
+    border-top: 7px solid #f8c616;
+}
